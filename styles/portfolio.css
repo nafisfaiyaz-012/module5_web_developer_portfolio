@@ -187,3 +187,16 @@ main section{
     font-weight: 400;
     text-align: justify;
 }
+
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 10px;
+}
+.resume-button{
+    text-align: center;
+    margin-top: 20px;
+}
+.resume-title{
+    margin-bottom: 50px;
+}
