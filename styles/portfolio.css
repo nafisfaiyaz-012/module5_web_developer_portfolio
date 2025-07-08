@@ -200,3 +200,22 @@ main section{
 .resume-title{
     margin-bottom: 50px;
 }
+
+
+/* footer styles */
+.parent-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-column{
+    width: 50%;
+    padding: 130px 273px;
+}
+.footer-column input{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-column button{
+    display: block;
+    margin-top: 20px;
+}
