@@ -37,13 +37,15 @@
     border-radius: 5px;
 }
 
-.section-title{
+.section-title {
     margin-top: 5px;
     font-size: 35px;
     font-weight: bold;
 }
-
-.common-bg{
+.text-center{
+    text-align: center;
+}
+.common-bg {
     background-color: #FFF8F3;
 }
 
@@ -120,33 +122,68 @@ nav ul li a {
     max-height: 676px;
     max-width: 584px;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
 
+main section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 /* section styles */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 
-.section-description{
+.section-description {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 18px;
     font-weight: 400;
 }
-.section-items{
+
+.section-items {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
     /* margin-top: 10px; */
 }
-.item-description{
+
+.item-description {
     font-weight: bold;
     font-size: 20px;
+}
+
+/* technologies section styles */
+.technologies{
+    /* text-align: center; */
+}
+.skills {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-top: 50px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.technologies .skills .skill img{
+    height: 44px;
+    width: 44px;
+}
+.skill-description{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
 }
